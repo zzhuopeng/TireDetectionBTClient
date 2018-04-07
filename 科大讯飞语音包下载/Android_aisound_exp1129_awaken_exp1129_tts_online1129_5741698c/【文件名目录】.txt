@@ -1,0 +1,316 @@
+卷 系统盘 的文件夹 PATH 列表
+卷序列号为 1CB6-6BA9
+C:.
+│  readme.txt
+│  release.txt
+│  wordlist.txt
+│  【文件名目录】.txt
+│  【文件夹目录】.txt
+│  文件目录表绘制.cmd
+│  
+├─assets
+│  └─iflytek
+│          recognize.xml
+│          voice_bg.9.png
+│          voice_empty.png
+│          voice_full.png
+│          waiting.png
+│          warning.png
+│          
+├─libs
+│  │  Msc.jar
+│  │  Sunflower.jar
+│  │  
+│  ├─arm64-v8a
+│  │      libmsc.so
+│  │      
+│  ├─armeabi
+│  │      libmsc.so
+│  │      
+│  ├─armeabi-v7a
+│  │      libmsc.so
+│  │      
+│  ├─mips
+│  │      libmsc.so
+│  │      
+│  ├─mips64
+│  │      libmsc.so
+│  │      
+│  ├─x86
+│  │      libmsc.so
+│  │      
+│  └─x86_64
+│          libmsc.so
+│          
+├─res
+│  ├─asr
+│  ├─ivw
+│  │      5741698c.jet
+│  │      
+│  └─tts
+│          common.jet
+│          xiaofeng.jet
+│          xiaoyan.jet
+│          
+└─sample
+    ├─mscV5PlusDemo
+    │  │  build.gradle
+    │  │  lint.xml
+    │  │  mscV5PlusDemo.iml
+    │  │  
+    │  ├─libs
+    │  │  │  Msc.jar
+    │  │  │  
+    │  │  └─armeabi
+    │  └─src
+    │      └─main
+    │          │  AndroidManifest.xml
+    │          │  
+    │          ├─assets
+    │          │  │  call.bnf
+    │          │  │  grammar_sample.abnf
+    │          │  │  iattest.wav
+    │          │  │  userwords
+    │          │  │  wake.bnf
+    │          │  │  wake_grammar_sample.abnf
+    │          │  │  
+    │          │  └─iflytek
+    │          │          recognize.xml
+    │          │          voice_bg.9.png
+    │          │          voice_empty.png
+    │          │          voice_full.png
+    │          │          waiting.png
+    │          │          warning.png
+    │          │          
+    │          ├─java
+    │          │  └─com
+    │          │      └─iflytek
+    │          │          ├─mscv5plusdemo
+    │          │          │      AsrDemo.java
+    │          │          │      IatDemo.java
+    │          │          │      IvwActivity.java
+    │          │          │      MainActivity.java
+    │          │          │      OneShotDemo.java
+    │          │          │      SpeechApp.java
+    │          │          │      TtsDemo.java
+    │          │          │      WakeDemo.java
+    │          │          │      
+    │          │          └─speech
+    │          │              ├─setting
+    │          │              │      IatSettings.java
+    │          │              │      TtsSettings.java
+    │          │              │      
+    │          │              └─util
+    │          │                      FucUtil.java
+    │          │                      JsonParser.java
+    │          │                      SettingTextWatcher.java
+    │          │                      XmlParser.java
+    │          │                      
+    │          └─res
+    │              ├─drawable
+    │              │      cancel_button.xml
+    │              │      list_bg_color.xml
+    │              │      main_setting_btn_np.xml
+    │              │      ok_button.xml
+    │              │      setting.png
+    │              │      setting_p.png
+    │              │      
+    │              ├─drawable-hdpi
+    │              │      bg.png
+    │              │      btn_left.xml
+    │              │      btn_left_f.9.png
+    │              │      btn_left_n.9.png
+    │              │      btn_left_p.9.png
+    │              │      btn_right.xml
+    │              │      btn_right_f.9.png
+    │              │      btn_right_n.9.png
+    │              │      btn_right_p.9.png
+    │              │      button_login.xml
+    │              │      cancel.9.png
+    │              │      cancel_p.9.png
+    │              │      editbox.9.png
+    │              │      edittext_name.9.png
+    │              │      head.png
+    │              │      icon.png
+    │              │      login.png
+    │              │      login_p.png
+    │              │      mic_0.png
+    │              │      mic_1.png
+    │              │      mic_2.png
+    │              │      mic_3.png
+    │              │      name_left.png
+    │              │      name_right.png
+    │              │      ok.9.png
+    │              │      ok_d.9.png
+    │              │      ok_p.9.png
+    │              │      pane_bg.9.png
+    │              │      superman.9.png
+    │              │      
+    │              ├─drawable-ldpi
+    │              │      icon.png
+    │              │      
+    │              ├─drawable-mdpi
+    │              │      icon.png
+    │              │      
+    │              ├─layout
+    │              │      iatdemo.xml
+    │              │      isrdemo.xml
+    │              │      ivw_activity.xml
+    │              │      list_items.xml
+    │              │      main.xml
+    │              │      oneshot_activity.xml
+    │              │      title.xml
+    │              │      ttsdemo.xml
+    │              │      wake_activity.xml
+    │              │      
+    │              ├─values
+    │              │      colors.xml
+    │              │      dimen.xml
+    │              │      strings.xml
+    │              │      styles.xml
+    │              │      
+    │              └─xml
+    │                      iat_setting.xml
+    │                      tts_setting.xml
+    │                      understand_setting.xml
+    │                      
+    └─speechDemo
+        │  build.gradle
+        │  lint.xml
+        │  speechDemo.iml
+        │  
+        ├─libs
+        │  │  Msc.jar
+        │  │  Sunflower.jar
+        │  │  
+        │  └─armeabi
+        │          libmsc.so
+        │          
+        └─src
+            └─main
+                │  AndroidManifest.xml
+                │  
+                ├─assets
+                │  │  call.bnf
+                │  │  grammar_sample.abnf
+                │  │  iattest.wav
+                │  │  isetest.wav
+                │  │  keys
+                │  │  userwords
+                │  │  
+                │  └─iflytek
+                │          recognize.xml
+                │          voice_bg.9.png
+                │          voice_empty.png
+                │          voice_full.png
+                │          waiting.png
+                │          warning.png
+                │          
+                ├─java
+                │  └─com
+                │      └─iflytek
+                │          ├─ise
+                │          │  └─result
+                │          │      │  FinalResult.java
+                │          │      │  ReadSentenceResult.java
+                │          │      │  ReadSyllableResult.java
+                │          │      │  ReadWordResult.java
+                │          │      │  Result.java
+                │          │      │  
+                │          │      ├─entity
+                │          │      │      Phone.java
+                │          │      │      Sentence.java
+                │          │      │      Syll.java
+                │          │      │      Word.java
+                │          │      │      
+                │          │      ├─util
+                │          │      │      ResultFormatUtil.java
+                │          │      │      ResultTranslateUtil.java
+                │          │      │      
+                │          │      └─xml
+                │          │              XmlResultParser.java
+                │          │              
+                │          ├─speech
+                │          │  ├─setting
+                │          │  │      IatSettings.java
+                │          │  │      IseSettings.java
+                │          │  │      TtsSettings.java
+                │          │  │      
+                │          │  └─util
+                │          │          FaceRect.java
+                │          │          FaceUtil.java
+                │          │          FucUtil.java
+                │          │          JsonParser.java
+                │          │          ParseResult.java
+                │          │          SettingTextWatcher.java
+                │          │          XmlParser.java
+                │          │          
+                │          └─voicedemo
+                │              │  AsrDemo.java
+                │              │  IatDemo.java
+                │              │  IseDemo.java
+                │              │  MainActivity.java
+                │              │  SpeechApp.java
+                │              │  TtsDemo.java
+                │              │  
+                │              ├─faceonline
+                │              │      OnlineFaceDemo.java
+                │              │      
+                │              ├─IdentifyGroup
+                │              │      FaceIdentifyActivity.java
+                │              │      GroupManagerActivity.java
+                │              │      ResultIdentifyActivity.java
+                │              │      VocalIdentifyActivity.java
+                │              │      
+                │              └─vocalverify
+                │                      VocalVerifyDemo.java
+                │                      
+                └─res
+                    ├─drawable
+                    │      list_bg_color.xml
+                    │      main_setting_btn_np.xml
+                    │      setting.png
+                    │      setting_p.png
+                    │      user.png
+                    │      
+                    ├─drawable-hdpi
+                    │      icon.png
+                    │      no_photo.png
+                    │      
+                    ├─drawable-ldpi
+                    │      icon.png
+                    │      
+                    ├─drawable-mdpi
+                    │      icon.png
+                    │      
+                    ├─layout
+                    │      activity_face_identify.xml
+                    │      activity_group_manager.xml
+                    │      activity_result_identify.xml
+                    │      activity_vocal_identify.xml
+                    │      group_header_layout.xml
+                    │      iatdemo.xml
+                    │      isedemo.xml
+                    │      isrdemo.xml
+                    │      isvdemo.xml
+                    │      item_group.xml
+                    │      item_identify_result.xml
+                    │      list_items.xml
+                    │      main.xml
+                    │      online_facedemo.xml
+                    │      title.xml
+                    │      ttsdemo.xml
+                    │      understander.xml
+                    │      
+                    ├─values
+                    │      colors.xml
+                    │      dimen.xml
+                    │      strings.xml
+                    │      styles.xml
+                    │      
+                    └─xml
+                            iat_setting.xml
+                            ise_settings.xml
+                            tts_setting.xml
+                            understand_setting.xml
+                            

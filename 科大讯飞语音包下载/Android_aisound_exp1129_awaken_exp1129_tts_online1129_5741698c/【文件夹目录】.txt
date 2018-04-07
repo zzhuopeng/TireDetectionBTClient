@@ -1,0 +1,70 @@
+卷 系统盘 的文件夹 PATH 列表
+卷序列号为 1CB6-6BA9
+C:.
+├─assets
+│  └─iflytek
+├─libs
+│  ├─arm64-v8a
+│  ├─armeabi
+│  ├─armeabi-v7a
+│  ├─mips
+│  ├─mips64
+│  ├─x86
+│  └─x86_64
+├─res
+│  ├─asr
+│  ├─ivw
+│  └─tts
+└─sample
+    ├─mscV5PlusDemo
+    │  ├─libs
+    │  │  └─armeabi
+    │  └─src
+    │      └─main
+    │          ├─assets
+    │          │  └─iflytek
+    │          ├─java
+    │          │  └─com
+    │          │      └─iflytek
+    │          │          ├─mscv5plusdemo
+    │          │          └─speech
+    │          │              ├─setting
+    │          │              └─util
+    │          └─res
+    │              ├─drawable
+    │              ├─drawable-hdpi
+    │              ├─drawable-ldpi
+    │              ├─drawable-mdpi
+    │              ├─layout
+    │              ├─values
+    │              └─xml
+    └─speechDemo
+        ├─libs
+        │  └─armeabi
+        └─src
+            └─main
+                ├─assets
+                │  └─iflytek
+                ├─java
+                │  └─com
+                │      └─iflytek
+                │          ├─ise
+                │          │  └─result
+                │          │      ├─entity
+                │          │      ├─util
+                │          │      └─xml
+                │          ├─speech
+                │          │  ├─setting
+                │          │  └─util
+                │          └─voicedemo
+                │              ├─faceonline
+                │              ├─IdentifyGroup
+                │              └─vocalverify
+                └─res
+                    ├─drawable
+                    ├─drawable-hdpi
+                    ├─drawable-ldpi
+                    ├─drawable-mdpi
+                    ├─layout
+                    ├─values
+                    └─xml
